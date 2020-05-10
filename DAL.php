@@ -131,7 +131,7 @@ class DAL{
         if(count($data)==0) return -1;
         
         $glue = strtolower($glue);
-        if($gule == null) $glue = "and"; // default glue
+        if($glue == null) $glue = "and"; // default glue
         if($glue != "and" && $glue != "or") $glue = "and"; // make sure glue is something valid
         
 
